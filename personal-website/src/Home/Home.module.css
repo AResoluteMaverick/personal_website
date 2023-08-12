@@ -38,6 +38,7 @@
 
 .sun {
     mix-blend-mode: screen;
+    top: -20%;
 }
 
 .forest {
