@@ -1,0 +1,41 @@
+@import '../assets/theme.css';
+
+.headerComponent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.logo {
+    color: var(--light);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liLink{
+    list-style: none;
+    margin-left: 20px;
+    color: var(--light);
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.liLink:hover {
+    background-color: var(--light);
+    color: var(--red-hue);
+}
