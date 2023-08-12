@@ -44,14 +44,13 @@ function FirstSection () {
 
       const skyProps = useSpring({ transform: `translate3d(0, ${-scrollY * 0.1}px, 0)` });
       const sunProps = useSpring({ transform: `translate3d(0, ${scrollY * 0.4}px, 0)` });
-      const mountainProps = useSpring({ transform: `translate3d(0, ${-scrollY * 0.2}px, 0)` });
+      const mountainProps = useSpring({ transform: `translate3d(0, ${-scrollY * 0.25}px, 0)` });
 
     return(
       <section className={styles.firstSection}>
         <animated.img src={sky} className={styles.sky} style={skyProps} />
         <animated.img src={sun} className={styles.sun} style={sunProps} />
         <animated.img src={mountain} className={styles.mountain} style={mountainProps} />
-        <h2 className={styles.greetings}>Welcome to my Website</h2>
         <animated.img src={forest} className={styles.forest} />
       </section>
     )

@@ -38,7 +38,11 @@
 
 .sun {
     mix-blend-mode: screen;
-    top: -20%;
+    top: -10%;
+}
+
+.mountain {
+    top: 10%;
 }
 
 .forest {
