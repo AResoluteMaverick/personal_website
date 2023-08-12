@@ -4,6 +4,7 @@ import sky from '../assets/Parallax Assets/SKY.png';
 import sun from '../assets/Parallax Assets/SUN.png';
 import mountain from '../assets/Parallax Assets/MOUNTAIN.png';
 import forest from '../assets/Parallax Assets/FOREST.png';
+import { useRef } from 'react';
 
 function SecondSection () {
     return (
@@ -35,7 +36,6 @@ function FirstSection () {
             <img src={sky} className={styles.sky} />
             <img src={sun} className={styles.sun} />
             <img src={mountain} className={styles.mountain} />
-            <h2 className={styles.greetings}>Welcome to my Website</h2>
             <img src={forest} className={styles.forest} />
         </section>       
     )
