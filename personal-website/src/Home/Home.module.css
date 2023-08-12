@@ -1,3 +1,4 @@
+@import '../assets/theme.css';
 .sky,
 .sun,
 .mountain,
@@ -11,13 +12,54 @@
     object-fit: cover;
 }
 
-.sun {
-    mix-blend-mode: screen;
-}
-
 .firstSection {
     position: relative;
     width: 100%;
     height: 100vh;
     padding: 100px;
+    display: flex;
+}
+
+.secondSection {
+    position: relative;
+    padding: 100px;
+    background: var(--dark);
+}
+
+.secondTitle {
+ font-size: 3.5em;
+ margin-bottom: 10px;
+ color: white;
+}
+
+.secondParagraph {
+    font-size: 1.2em;
+    color: white;
+}
+
+.sun {
+    mix-blend-mode: screen;
+}
+
+.forest {
+    z-index: 10;
+}
+
+.greetings {
+    position: absolute;
+    color: white;
+    white-space: normal;
+    font-size: 7.5vw;
+    z-index: 9;
+    top: 50%;
+}
+
+.firstSection::before {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, var(--dark), transparent);
+    z-index: 1000;
 }
