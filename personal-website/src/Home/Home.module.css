@@ -18,6 +18,42 @@
     -webkit-user-drag: none; 
 }
 
+.sun {
+    mix-blend-mode: screen;
+    top: -6%;
+}
+
+.birds {
+    top: -20%;
+    left: -30%;
+    z-index: 12;
+}
+
+.mountain {
+    top: 14%;
+}
+
+.forest {
+    z-index: 10;
+}
+
+.firstSection::before {
+    opacity: 100%;
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, var(--dark), transparent);
+    z-index: 1000;
+}
+
+.dummySection {
+    height: 20vh;
+    background: var(--dark);
+    position: relative;
+}
+
 .firstSection {
     position: relative;
     width: 100%;
@@ -57,40 +93,4 @@
 .secondParagraph {
     font-size: 1.2em;
     color: white;
-}
-
-.sun {
-    mix-blend-mode: screen;
-    top: -6%;
-}
-
-.birds {
-    top: -20%;
-    left: -30%;
-    z-index: 12;
-}
-
-.mountain {
-    top: 14%;
-}
-
-.forest {
-    z-index: 10;
-}
-
-.firstSection::before {
-    opacity: 100%;
-    content:'';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to top, var(--dark), transparent);
-    z-index: 1000;
-}
-
-.dummySection {
-    height: 20vh;
-    background: var(--dark);
-    position: relative;
 }

@@ -9,6 +9,40 @@ import birds from '../assets/Parallax Assets/image-from-rawpixel-id-6483181-svg.
 import { useSpring, animated } from 'react-spring';
 import profileImage from '../assets/images/profilepicture.jpg';
 
+function FourthSection () {
+  <section className={styles.fourthSection}>
+    <div className={styles.computerSkillWrapper}>
+
+    <h3 className={styles.computerSkillDescription}>
+      ...and Tech skills!
+    </h3>
+
+    <p className={styles.computerSkillCarousel}>
+    </p>
+    
+    </div>
+  </section>
+
+}
+
+function ThirdSection () {
+  return (
+    <section className={styles.thirdSection + " hidden"}>
+
+      <div className={styles.personalSkillWrapper}>
+
+        <h3 className={styles.personalSkillDescription}>
+          Because of my education and background in Psychology and Computer Science, I&apos;ve managed to personally develop People skills...
+        </h3>
+
+        <p className={styles.personalSkillCarousel}>
+        </p>
+
+      </div>
+    </section>
+  )
+}
+
 function SecondSection () {
     return (
       <section className={styles.secondSection + " hidden"}>
