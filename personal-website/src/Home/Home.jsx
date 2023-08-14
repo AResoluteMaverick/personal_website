@@ -17,23 +17,38 @@ import nodeJSIcon from '../assets/icons/nodejs_icon.png';
 import vsIcon from '../assets/icons/vscode_icon.png';
 import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
-import reactIcon from '../assets/icons/react_icon.svg';
+import reactIcon from '../assets/icons/react_icon.png';
 
 
 function FourthSection () {
-  <section className={styles.fourthSection}>
-    <div className={styles.computerSkillWrapper}>
+  const icons = [
+    { src: gitIcon, alt: 'Git' },
+    { src: cssIcon, alt: 'CSS' },
+    { src: githubIcon, alt: 'GitHub' },
+    { src: htmlIcon, alt: 'HTML5' },
+    { src: jsIcon, alt: 'JavaScript' },
+    { src: nodeJSIcon, alt: 'Node.js' },
+    { src: vsIcon, alt: 'Visual Studio Code' },
+    { src: viteIcon, alt: 'Vite' },
+    { src: webpackIcon, alt: 'Webpack' },
+    { src: reactIcon, alt: 'React' },
+  ];
 
-    <h3 className={styles.computerSkillDescription}>
+
+  return (
+  <section className={styles.fourthSection + " hidden"}>
+    <h1 className={styles.computerSkillDescription}>
       ...and Tech skills!
-    </h3>
+    </h1>
 
-    <p className={styles.computerSkillCarousel}>
-    </p>
-    
+    <div className={styles.computerSkills}>
+      {icons.map((icon, index) => (
+            <img key={index} src={icon.src} alt={icon.alt} className={styles.icon} />
+          ))}
     </div>
+    
   </section>
-
+  )
 }
 
 function ThirdSection () {

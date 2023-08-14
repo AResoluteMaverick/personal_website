@@ -74,7 +74,7 @@
 }
 
 .thirdSection {
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -124,9 +124,37 @@
     }
   }
 
-  .fourthSection {
+.fourthSection {
     height: 50vh;
-  }
+    padding: 0 10em 0 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.computerSkillDescription {
+    padding-left: 4em;
+    color: white;
+    align-self: flex-start;
+}
+
+.computerSkills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    gap: 2em;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    padding: 1em;
+    background: #2d3649;
+    border-radius: 25px;
+}
 
 .profilePicture {
     max-height: 50vh;
