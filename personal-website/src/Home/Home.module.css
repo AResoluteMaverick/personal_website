@@ -28,8 +28,24 @@
 
 .secondSection {
     position: relative;
-    padding: 100px;
     background: var(--dark);
+    padding-left: 20em;
+    padding-right: 20em;
+    height: 50vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profilePicture {
+    max-height: 50vh;
+    border-radius: 8%;
+}
+
+.profilePictureWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .secondTitle {

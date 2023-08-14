@@ -7,15 +7,20 @@ import mountain from '../assets/Parallax Assets/MOUNTAIN.png';
 import forest from '../assets/Parallax Assets/FOREST.png';
 import birds from '../assets/Parallax Assets/image-from-rawpixel-id-6483181-svg.svg'
 import { useSpring, animated } from 'react-spring';
+import profileImage from '../assets/images/profilepicture.jpg';
 
 function SecondSection () {
     return (
       <section className={styles.secondSection + " hidden"}>
 
-            <h2 className={styles.secondTitle}>Second Section</h2>
-            <p className={styles.secondParagraph}> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi debitis cupiditate omnis, ducimus officia et.  <br />  <br />Corporis, fuga excepturi quaerat nisi voluptas dicta harum iste, ab quo, magni quibusdam eaque officiis.  
-           </p>
-        </section>
+            <div className={styles.secondSectionWrapper}>
+              <h2 className={styles.secondTitle}>Passionate about Technology and Human Connection</h2>
+              <p className={styles.secondParagraph}> Hi, I&apos;m Raphael Tapiador, a person with background in Computer Science and Psychology from De La Salle University in the Philippines. My fascination with the intersection of technology and human behavior has led me through a diverse journey, bridging the gap between coding and communication in various environments. </p>
+            </div>
+            <div className={styles.profilePictureWrapper}>
+              <img src={profileImage} alt="raphael_tapiador_picture" className={styles.profilePicture} />
+            </div>
+      </section>
     )
 }
 
