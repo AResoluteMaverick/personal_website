@@ -69,14 +69,14 @@ export default function Home () {
     const sections = document.querySelectorAll('section');
 
     sections.forEach((section, index) => {
-      if (index !== 0) {
+      if (index >= 2) {
         observer.observe(section);
       }
     });
 
     return () => {
       sections.forEach((section, index) => {
-        if (index !== 0) {
+        if (index >= 2) {
           observer.unobserve(section);
         }
       });
@@ -89,6 +89,7 @@ export default function Home () {
         <>
         <Header />
         <FirstSection />
+        <section className={styles.dummySection}></section>
         <SecondSection />
         </>
     )

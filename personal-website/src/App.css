@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(#72445c,#be4c62);
+    background-color: var(--dark);
 }
 
 a {
@@ -21,3 +21,15 @@ section {
 
 /*Intersection Observer styling section*/
 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-200px);
+    transition: all 1s;
+}
+
+.in-viewport {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
