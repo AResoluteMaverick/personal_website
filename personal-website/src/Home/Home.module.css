@@ -73,6 +73,45 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.thirdSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: white;
+    gap: 50px;
+}
+
+.personalSkillDescription {
+    padding: 10em 10em 4em;
+    width: 60%;
+}
+
+.personalSkillCarousel {
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    /*animation: scrollLeft 35s linear infinite;*/
+  }
+  
+  .skillButton {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    cursor: default;
+  }
+  
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
 .profilePicture {
     max-height: 50vh;
     border-radius: 8%;

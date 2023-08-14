@@ -26,21 +26,48 @@ function FourthSection () {
 }
 
 function ThirdSection () {
+  const skills = [
+    'Critical Thinking',
+    'Effective Communication',
+    'Problem Solving',
+    'Adaptability',
+    'Collaboration and Teamwork',
+    'Leadership',
+    'Emotional Intelligence',
+    'Conflict Resolution',
+    'Decision Making',
+    'Project Management',
+    'Time Management',
+    'Creativity and Innovation',
+    'Customer Service Orientation',
+    'Attention to Detail',
+    'Intercultural Competence',
+    'Ethical Judgment',
+    'Negotiation Skills',
+    'Analytical Thinking',
+    'Self-Motivation',
+    'Resilience and Stress Management'
+  ];
+
   return (
     <section className={styles.thirdSection + " hidden"}>
-
       <div className={styles.personalSkillWrapper}>
-
-        <h3 className={styles.personalSkillDescription}>
-          Because of my education and background in Psychology and Computer Science, I&apos;ve managed to personally develop People skills...
-        </h3>
-
-        <p className={styles.personalSkillCarousel}>
-        </p>
-
+        <h1 className={styles.personalSkillDescription}>
+          Because of my education and background in Psychology and Computer Science, I developed refined personal skills...
+        </h1>
+        <div className={styles.personalSkillCarousel}>
+          {skills.map((skill, index) => (
+            <button key={index} className={styles.skillButton}>{skill}</button>
+          ))}
+          {skills.map((skill, index) => (
+            <button key={index + skills.length} className={styles.skillButton}>{skill}</button>
+          ))}
+        </div>
       </div>
     </section>
-  )
+  );
+  
+ 
 }
 
 function SecondSection () {
@@ -130,6 +157,7 @@ export default function Home () {
         <FirstSection />
         <section className={styles.dummySection}></section>
         <SecondSection />
+        <ThirdSection />
         </>
     )
 }
