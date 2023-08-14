@@ -91,17 +91,30 @@
     display: inline-block;
     white-space: nowrap;
     width: 100%;
-    /*animation: scrollLeft 35s linear infinite;*/
+    animation: scrollLeft 35s linear infinite;
   }
   
   .skillButton {
+    appearance: none;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid var(--light);
+    color: var(--light);
+    background-color: var(--dark);
+    border-radius: 20px;
+    font-size: 1em;
     margin-right: 10px;
-    background-color: #f9f9f9;
     cursor: default;
+    font-weight: bold;
+  }
+
+  .skillButton:hover {
+    background-color: var(--red-hue);
   }
   
+  .personalSkillCarousel:hover {
+    animation-play-state: paused;
+}
+
   @keyframes scrollLeft {
     0% {
       transform: translateX(0);
