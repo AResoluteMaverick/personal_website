@@ -8,6 +8,17 @@ import forest from '../assets/Parallax Assets/FOREST.png';
 import birds from '../assets/Parallax Assets/image-from-rawpixel-id-6483181-svg.svg'
 import { useSpring, animated } from 'react-spring';
 import profileImage from '../assets/images/profilepicture.jpg';
+import gitIcon from '../assets/icons/git_icon.png';
+import cssIcon from '../assets/icons/css_icon.png';
+import githubIcon from '../assets/icons/github_icon.png';
+import htmlIcon from '../assets/icons/html5_icon.png';
+import jsIcon from '../assets/icons/js_icon.png';
+import nodeJSIcon from '../assets/icons/nodejs_icon.png';
+import vsIcon from '../assets/icons/vscode_icon.png';
+import viteIcon from '../assets/icons/vite_icon.svg';
+import webpackIcon from '../assets/icons/webpack_icon.svg';
+import reactIcon from '../assets/icons/react_icon.svg';
+
 
 function FourthSection () {
   <section className={styles.fourthSection}>
@@ -158,6 +169,7 @@ export default function Home () {
         <section className={styles.dummySection}></section>
         <SecondSection />
         <ThirdSection />
+        <FourthSection />
         </>
     )
 }

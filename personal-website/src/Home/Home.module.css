@@ -74,7 +74,7 @@
 }
 
 .thirdSection {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -123,7 +123,10 @@
       transform: translateX(-100%);
     }
   }
-  
+
+  .fourthSection {
+    height: 50vh;
+  }
 
 .profilePicture {
     max-height: 50vh;
