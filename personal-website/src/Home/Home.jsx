@@ -19,15 +19,49 @@ import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
 import reactIcon from '../assets/icons/react_icon.png';
 
+function SeventhSection () {
+  return (
+    <section className={styles.seventhSection + " hidden"}>
+     <h1 className={styles.professionalExperienceDescription}>...but also in Univerisity & Academic Leadership positions</h1>
+     <ul className={styles.professionalExperiences}>
+      <li><strong>Intern at Kaya.ph:</strong> : Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
+      <li><strong>Recruiter Intern at NarraSoft:</strong> mmersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
+      <li><strong>Accounts Management Intern at Kahon.ph:</strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
+     </ul>
+    </section>
+  )
+}
+
+function SixthSection () {
+  return (
+    <section className={styles.sixthSection + " hidden"}>
+
+     <div className={styles.educationalEngagementWrapper}>
+       <h1 className={styles.educationalEngagement}>Educational Engagement:</h1>
+       <p className={styles.educationEngagementDescription}>
+        During my university years, I took an active role in projects, university-wide programs, and both internal and external organizational affairs. These experiences allowed me to hone my leadership, teamwork, and problem-solving abilities.
+       </p>
+     </div>
+
+     <div className={styles.professionalEngagementWrapper}>
+       <h1 className={styles.professionalEngagement}>Professional Engagement:</h1>
+       <p className={styles.professionalEngagementDescription}>
+       In the corporate realm, I&apos;ve strategically positioned myself at the nexus of technology, recruitment, and operations. These diverse roles have not only honed my adaptability but also enabled me to appreciate the multifaceted dimensions of the business world!
+       </p>
+     </div>
+
+    </section>
+  )
+}
 
 function FifthSection () {
   return (
     <section className={styles.fifthSection + " hidden"}>
-     <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings!</h1>
+     <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings...</h1>
      <ul className={styles.professionalExperiences}>
-      <li><strong>Intern at Kaya.ph:</strong> Assisted in the planning and conceptualization of the design of their website and was selected to help shape the future community initiatives.</li>
-      <li><strong>Recruiter Intern at NarraSoft:</strong> Engaged with diverse talents such as full-stack developers, cloud engineers, and UI/UX designers. My contributions included recruiting these key professionals, and contributing to a complete company website redesign.</li>
-      <li><strong>Accounts Management Intern at Kahon.ph:</strong> Managed accounts and handled internal and external operations including client inquiry handling, calls, and innovative program development.</li>
+      <li><strong>Intern at Kaya.ph:</strong> : Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
+      <li><strong>Recruiter Intern at NarraSoft:</strong> mmersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
+      <li><strong>Accounts Management Intern at Kahon.ph:</strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
      </ul>
     </section>
   )
@@ -196,6 +230,7 @@ export default function Home () {
         <FirstSection />
         <section className={styles.dummySection}></section>
         <SecondSection />
+        <SixthSection />
         <ThirdSection />
         <FourthSection />
         <FifthSection />
