@@ -65,7 +65,7 @@
 .flexWrapper{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 200px;
 }
 
 .secondSection {
@@ -90,7 +90,7 @@
 }
 
 .thirdSection {
-    height: 20vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -227,7 +227,6 @@
 .academicExperiences {
     flex-direction: row;
     margin-left: 0;
-    width: 100%;
 }
 
 .educationEngagementDescription,
