@@ -90,7 +90,7 @@
 }
 
 .thirdSection {
-    height: 30vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -208,14 +208,14 @@
 }
 
 .professionalExperienceDescription{
-    padding-left: 14em;
+    padding-left: 10em;
 }
 
 .professionalExperiences{
     margin-top: 4em;
     width: 50%;
     margin-left: auto;
-    font-size: 1.5em;
+    font-size: 1.25em;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -246,5 +246,5 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 50px;
     padding-top: 75px;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
