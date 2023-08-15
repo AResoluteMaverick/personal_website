@@ -22,7 +22,7 @@ import reactIcon from '../assets/icons/react_icon.png';
 function SeventhSection () {
   return (
     <section className={styles.seventhSection + " hidden"}>
-     <h1 className={styles.academicExperienceDescription}>...but also in Univerisity & Academic Leadership positions</h1>
+    <h1 className={styles.academicExperienceDescription}>...but also in Univerisity & Academic Leadership positions</h1>
      <ul className={styles.academicExperiences}>
       <li><strong>Assistant Vice President for Memberships:</strong> <br /><br />Guided membership strategies and fostered community within the organization.</li>
       <li><strong>Assistant Vice President for Human Resources:</strong> <br /><br />Oversaw recruitment, development, and engagement of organizational members.</li>

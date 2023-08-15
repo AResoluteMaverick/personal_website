@@ -202,36 +202,49 @@
     color: white;
 }
 
-.fifthSection,
-.seventhSection {
+.fifthSection {
     height: 60vh;
     color: white;
-    padding: 0em 10em 0 14em;
 }
 
-.seventhSection {
-    height: 90vh;
+.professionalExperienceDescription{
+    padding-left: 14em;
 }
 
-.professionalExperiences,
-.academicExperiences {
+.professionalExperiences{
     margin-top: 4em;
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     font-size: 1.5em;
     display: flex;
     flex-direction: column;
     gap: 2em;
+    padding-right: 14em;
 }
 
-.academicExperiences {
-    flex-direction: row;
-    margin-left: 0;
-}
-
-.educationEngagementDescription,
-.professionalEngagementDescription {
+.professionalEngagementDescription,
+.educationEngagementDescription {
     padding-top: 2em;
     padding-left: 1em;
+    font-size: 1.5em;
+}
+
+.seventhSection {
+    color: white;
+    height: 50vh;
+    box-sizing: border-box;
+    padding-left: 14em;
+    padding-right: 14em;
+}
+
+.academicExperienceDescription{
+
+}
+
+.academicExperiences{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    padding-top: 75px;
     font-size: 1.5em;
 }

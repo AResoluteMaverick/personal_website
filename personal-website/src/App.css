@@ -4,14 +4,24 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    max-width: 100%;
+}
+
 body {
     min-height: 100vh;
     background-color: var(--dark);
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+li {
+    list-style: none;
 }
 
 
