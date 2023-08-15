@@ -65,7 +65,7 @@
 .flexWrapper{
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 150px;
 }
 
 .secondSection {
@@ -121,6 +121,7 @@
     margin-right: 10px;
     cursor: default;
     font-weight: bold;
+    font-family: var(--heading-font);
   }
 
   .skillButton:hover {
@@ -156,13 +157,9 @@
 }
 
 .computerSkills{
-       /* display: flex; */
        align-items: center;
        justify-content: center;
        width: 50%;
-       /* max-height: 50%; */
-       /* gap: 2em; */
-       /* flex-direction: column; */
        display: grid;
        grid-template-columns: repeat(4, 100px);
        grid-template-rows: 1fr 1fr 1fr;
@@ -198,7 +195,8 @@
 }
 
 .secondParagraph {
-    font-size: 1.2em;
+    margin-top: 50px;
+    font-size: 1.5em;
     color: white;
 }
 
@@ -211,6 +209,10 @@
     padding-left: 10em;
 }
 
+.strongHighlight{
+    font-family: var(--heading-font);
+}
+
 .professionalExperiences{
     margin-top: 4em;
     width: 50%;
@@ -220,6 +222,7 @@
     flex-direction: column;
     gap: 2em;
     padding-right: 14em;
+    font-family: var(--description-font);
 }
 
 .professionalEngagementDescription,
@@ -235,6 +238,7 @@
     box-sizing: border-box;
     padding-left: 14em;
     padding-right: 14em;
+    font-family: var(--description-font);
 }
 
 .academicExperiences{
@@ -276,6 +280,7 @@
     padding: 6px 15px;
     border-radius: 20px;
     border:  2px solid var(--light);
+    font-family: var(--heading-font);
 }
 
 .portfolio:hover {

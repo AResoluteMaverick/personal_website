@@ -1,3 +1,4 @@
+@import './assets/theme.css';
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +28,14 @@ li {
 
 section {
     height: 100vh;
+}
+
+h1 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--description-font);
 }
 
 /*Intersection Observer styling section*/

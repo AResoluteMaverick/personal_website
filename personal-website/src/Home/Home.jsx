@@ -45,11 +45,11 @@ function SeventhSection () {
     <section className={styles.seventhSection + " hidden"}>
     <h1 className={styles.academicExperienceDescription}>...but also in Univerisity & Academic Leadership positions!</h1>
      <ul className={styles.academicExperiences}>
-      <li><strong>Assistant Vice President for Memberships:</strong> <br /><br />Guided membership strategies and fostered community within the organization.</li>
-      <li><strong>Assistant Vice President for Human Resources:</strong> <br /><br />Oversaw recruitment, development, and engagement of organizational members.</li>
-      <li><strong>Junior Officer for Sponsorships:</strong> <br /><br />Managed relationships with sponsors and coordinated support for events and programs.</li>
-      <li><strong>Junior Officer for External Affairs:</strong> <br /><br />Led initiatives to foster collaboration and partnership with external entities.</li>
-      <li><strong>Junior Officer for Internal Affairs:</strong> <br /><br />Ensured smooth internal communication and coordinated organization-wide activities.</li>
+      <li><strong className={styles.strongHighlight}>Assistant Vice President for Memberships:</strong> <br /><br />Guided membership strategies and fostered community within the organization.</li>
+      <li><strong className={styles.strongHighlight}>Assistant Vice President for Human Resources:</strong> <br /><br />Oversaw recruitment, development, and engagement of organizational members.</li>
+      <li><strong className={styles.strongHighlight}>Junior Officer for Sponsorships:</strong> <br /><br />Managed relationships with sponsors and coordinated support for events and programs.</li>
+      <li><strong className={styles.strongHighlight}>Junior Officer for External Affairs:</strong> <br /><br />Led initiatives to foster collaboration and partnership with external entities.</li>
+      <li><strong className={styles.strongHighlight}>Junior Officer for Internal Affairs:</strong> <br /><br />Ensured smooth internal communication and coordinated organization-wide activities.</li>
      </ul>
     </section>
   )
@@ -82,9 +82,9 @@ function FifthSection () {
     <section className={styles.fifthSection + " hidden"}>
      <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings...</h1>
      <ul className={styles.professionalExperiences}>
-      <li><strong>Intern at Kaya.ph:</strong>Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
-      <li><strong>Recruiter Intern at NarraSoft:</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
-      <li><strong>Accounts Management Intern at Kahon.ph:</strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
+      <li><strong className={styles.strongHighlight}>Intern at Kaya.ph -</strong> Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
+      <li><strong className={styles.strongHighlight}>Recruiter Intern at NarraSoft -</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
+      <li><strong className={styles.strongHighlight}>Accounts Management Intern at Kahon.ph - </strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
      </ul>
     </section>
   )
@@ -171,7 +171,7 @@ function SecondSection () {
       <section className={styles.secondSection + " hidden"}>
 
             <div className={styles.secondSectionWrapper}>
-              <h2 className={styles.secondTitle}>Passionate about Technology and Human Connection</h2>
+              <h1 className={styles.secondTitle}>Passionate about Technology and Human Connection</h1>
               <p className={styles.secondParagraph}> Hi, I&apos;m Raphael Tapiador, a person with background in Computer Science and Psychology from De La Salle University in the Philippines. My fascination with the intersection of technology and human behavior has led me through a diverse journey, bridging the gap between coding and communication in various environments. </p>
             </div>
             <div className={styles.profilePictureWrapper}>
