@@ -25,7 +25,7 @@ function FifthSection () {
     <section className={styles.fifthSection + " hidden"}>
      <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings!</h1>
      <ul className={styles.professionalExperiences}>
-      <li><strong>Intern at Kaya.ph:</strong> Assisted with planning the design of their website and was selected to help shape the future community initiatives.</li>
+      <li><strong>Intern at Kaya.ph:</strong> Assisted in the planning and conceptualization of the design of their website and was selected to help shape the future community initiatives.</li>
       <li><strong>Recruiter Intern at NarraSoft:</strong> Engaged with diverse talents such as full-stack developers, cloud engineers, and UI/UX designers. My contributions included recruiting these key professionals, and contributing to a complete company website redesign.</li>
       <li><strong>Accounts Management Intern at Kahon.ph:</strong> Managed accounts and handled internal and external operations including client inquiry handling, calls, and innovative program development.</li>
      </ul>
@@ -198,6 +198,7 @@ export default function Home () {
         <SecondSection />
         <ThirdSection />
         <FourthSection />
+        <FifthSection />
         </>
     )
 }
