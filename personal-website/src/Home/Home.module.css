@@ -65,6 +65,7 @@
 .flexWrapper{
     display: flex;
     flex-direction: column;
+    gap: 100px;
 }
 
 .secondSection {
@@ -80,17 +81,16 @@
 
 
 .sixthSection {
-    height: 50vh;
+    height: 40vh;
     color: white;
     display: flex;
     padding-left: 14em;
     padding-right: 14em;
-    padding-top: 10em;
     gap: 5em;
 }
 
 .thirdSection {
-    height: 55vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -99,7 +99,7 @@
 }
 
 .personalSkillDescription {
-    padding: 5em 10em 4em;
+    padding: 0 10em 4em;
     width: 60%;
 }
 
@@ -192,7 +192,7 @@
 }
 
 .secondTitle {
- font-size: 3.5em;
+ font-size: 2.5em;
  margin-bottom: 10px;
  color: white;
 }
@@ -204,9 +204,9 @@
 
 .fifthSection,
 .seventhSection {
-    height: 70vh;
+    height: 60vh;
     color: white;
-    padding: 10em 10em 0 14em;
+    padding: 0em 10em 0 14em;
 }
 
 .seventhSection {
