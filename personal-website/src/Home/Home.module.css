@@ -237,14 +237,38 @@
     padding-right: 14em;
 }
 
-.academicExperienceDescription{
-
-}
-
 .academicExperiences{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 50px;
     padding-top: 75px;
     font-size: 1.25em;
+}
+
+.eightSection{
+    height: 70vh;
+    color: white;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.diversityTitle {
+    padding-bottom: 50px;
+}
+
+.sideNote{
+    padding-top: 50px;
+    font-size: 0.75em;
+}
+
+.portfolio {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
 }

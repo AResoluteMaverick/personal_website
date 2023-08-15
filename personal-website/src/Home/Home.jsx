@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 import styles from './Home.module.css';
 import Header from '../Header/Header';
 import sky from '../assets/Parallax Assets/SKY.png';
@@ -19,10 +20,30 @@ import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
 import reactIcon from '../assets/icons/react_icon.png';
 
+function EigthSection () {
+  return (
+    <section className={styles.eightSection + " hidden"}>
+
+    <div className={styles.eightSectionWrapper}>
+      <h1 className={styles.diversityTitle}>Embracing Diversity</h1>
+      <p className={styles.diversityDescription}> My experiences in universities, companies, and corporations have enriched my perspective and equipped me with a unique blend of technical know-how and human-centric skills. <br /> <br />
+      Please feel free to explore my portfolio to learn more about my projects and accomplishments, or contact me directly to discuss how my unique blend of technical and interpersonal expertise can contribute to your organization.
+      </p>
+      <p className={styles.sideNote}>(P.S I wasn&apos;t able to name all the university organizations because their names are too long and too many! But you can personally ask me about it :P)</p>
+    </div>
+
+    <div className={styles.portfolio}>
+      <Link to="/portfolio">See my Portfolio!</Link>
+    </div>
+
+    </section>
+  )
+}
+
 function SeventhSection () {
   return (
     <section className={styles.seventhSection + " hidden"}>
-    <h1 className={styles.academicExperienceDescription}>...but also in Univerisity & Academic Leadership positions</h1>
+    <h1 className={styles.academicExperienceDescription}>...but also in Univerisity & Academic Leadership positions!</h1>
      <ul className={styles.academicExperiences}>
       <li><strong>Assistant Vice President for Memberships:</strong> <br /><br />Guided membership strategies and fostered community within the organization.</li>
       <li><strong>Assistant Vice President for Human Resources:</strong> <br /><br />Oversaw recruitment, development, and engagement of organizational members.</li>
@@ -61,7 +82,7 @@ function FifthSection () {
     <section className={styles.fifthSection + " hidden"}>
      <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings...</h1>
      <ul className={styles.professionalExperiences}>
-      <li><strong>Intern at Kaya.ph:</strong> : Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
+      <li><strong>Intern at Kaya.ph:</strong>Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
       <li><strong>Recruiter Intern at NarraSoft:</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
       <li><strong>Accounts Management Intern at Kahon.ph:</strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
      </ul>
@@ -238,6 +259,7 @@ export default function Home () {
           <FourthSection />
           <FifthSection />
           <SeventhSection />
+          <EigthSection />
         </div>
         </>
     )
