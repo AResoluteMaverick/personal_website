@@ -62,15 +62,31 @@
     background: linear-gradient(#72445c,#be4c62);
 }
 
+.flexWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
 .secondSection {
     position: relative;
     background: var(--dark);
     padding-left: 25em;
     padding-right: 25em;
-    height: 50vh;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+
+
+.sixthSection {
+    height: 50vh;
+    color: white;
+    display: flex;
+    padding-left: 14em;
+    padding-right: 14em;
+    padding-top: 10em;
+    gap: 5em;
 }
 
 .thirdSection {
@@ -172,7 +188,6 @@
 
 .profilePictureWrapper {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -213,16 +228,6 @@
     flex-direction: row;
     margin-left: 0;
     width: 100%;
-}
-
-.sixthSection {
-    height: 50vh;
-    color: white;
-    display: flex;
-    padding-left: 14em;
-    padding-right: 14em;
-    padding-top: 10em;
-    gap: 5em;
 }
 
 .educationEngagementDescription,

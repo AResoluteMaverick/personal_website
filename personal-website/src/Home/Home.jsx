@@ -231,12 +231,14 @@ export default function Home () {
         <Header />
         <FirstSection />
         <section className={styles.dummySection}></section>
-        <SecondSection />
-        <SixthSection />
-        <ThirdSection />
-        <FourthSection />
-        <FifthSection />
-        <SeventhSection />
+        <div className={styles.flexWrapper}>
+          <SecondSection />
+          <SixthSection />
+          <ThirdSection />
+          <FourthSection />
+          <FifthSection />
+          <SeventhSection />
+        </div>
         </>
     )
 }
