@@ -140,12 +140,19 @@
 }
 
 .computerSkills{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
-    gap: 2em;
+       /* display: flex; */
+       align-items: center;
+       justify-content: center;
+       width: 50%;
+       /* max-height: 50%; */
+       /* gap: 2em; */
+       /* flex-direction: column; */
+       display: grid;
+       grid-template-columns: repeat(4, 100px);
+       grid-template-rows: 1fr 1fr 1fr;
+       margin-left: auto;
+       margin-right: auto;
+       gap: 2em;
 }
 
 .icon {
@@ -154,6 +161,8 @@
     padding: 1em;
     background: #2d3649;
     border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profilePicture {
