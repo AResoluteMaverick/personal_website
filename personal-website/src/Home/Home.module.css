@@ -81,11 +81,12 @@
 
 
 .sixthSection {
-    height: 40vh;
+    height: 50vh;
     color: white;
     display: flex;
     padding-left: 14em;
     padding-right: 14em;
+    padding-top: 50px;
     gap: 5em;
 }
 
@@ -189,7 +190,7 @@
 }
 
 .secondTitle {
- font-size: 2.5em;
+ font-size: 2em;
  margin-bottom: 10px;
  color: white;
 }
@@ -201,7 +202,7 @@
 }
 
 .fifthSection {
-    height: 60vh;
+    height: 90vh;
     color: white;
 }
 
@@ -250,7 +251,7 @@
 }
 
 .eightSection{
-    height: 70vh;
+    height: 80vh;
     color: white;
     width:50%;
     margin-left: auto;
