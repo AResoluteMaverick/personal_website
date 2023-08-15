@@ -209,6 +209,12 @@
     gap: 2em;
 }
 
+.academicExperiences {
+    flex-direction: row;
+    margin-left: 0;
+    width: 100%;
+}
+
 .sixthSection {
     height: 50vh;
     color: white;
