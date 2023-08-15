@@ -83,7 +83,7 @@
 }
 
 .personalSkillDescription {
-    padding: 10em 10em 4em;
+    padding: 5em 10em 4em;
     width: 60%;
 }
 
@@ -201,4 +201,21 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+}
+
+.sixthSection {
+    height: 50vh;
+    color: white;
+    display: flex;
+    padding-left: 14em;
+    padding-right: 14em;
+    padding-top: 10em;
+    gap: 5em;
+}
+
+.educationEngagementDescription,
+.professionalEngagementDescription {
+    padding-top: 2em;
+    padding-left: 1em;
+    font-size: 1.5em;
 }
