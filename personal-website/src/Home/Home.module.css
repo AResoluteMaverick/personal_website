@@ -213,7 +213,7 @@
 }
 
 .fifthSection {
-    height: 90vh;
+    height: 60vh;
     color: white;
 }
 
@@ -305,6 +305,7 @@
 }
 
 .seventhSection {
+    margin-top: 250px;
     color: white;
     height: 50vh;
     box-sizing: border-box;
