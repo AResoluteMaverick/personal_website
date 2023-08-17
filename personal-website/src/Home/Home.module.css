@@ -252,16 +252,20 @@
 }
 
 .eightSection{
-    height: 80vh;
     color: white;
     width:50%;
     margin-left: auto;
     margin-right: auto;
     font-size: 1.5em;
-
+    height: 100%;
     display: flex;
 
     flex-direction: column;
+}
+
+.eightWrapper {
+    position: relative;
+    height: 80vh;
 }
 
 .diversityTitle {

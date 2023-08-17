@@ -23,21 +23,21 @@ import MorphingSVG from '../assets/morphing/MorphingSVG';
 
 function EigthSection () {
   return (
-    <section className={styles.eightSection + " hidden"}>
-
-    <div className={styles.eightSectionWrapper}>
-      <h1 className={styles.diversityTitle}>Embracing Diversity</h1>
-      <p className={styles.diversityDescription}> My experiences in universities, companies, and corporations have enriched my perspective and equipped me with a unique blend of technical know-how and human-centric skills. <br /> <br />
-      Please feel free to explore my portfolio to learn more about my projects and accomplishments, or contact me directly to discuss how my unique blend of technical and interpersonal expertise can contribute to your organization.
-      </p>
-      <p className={styles.sideNote}>(P.S I wasn&apos;t able to name all the university organizations because their names are too long and too many! But you can personally ask me about it :P)</p>
+    <div className={styles.eightWrapper}>
+      <MorphingSVG />
+      <section className={styles.eightSection + " hidden"}>
+      <div className={styles.eightSectionWrapper}>
+        <h1 className={styles.diversityTitle}>Embracing Diversity</h1>
+        <p className={styles.diversityDescription}> My experiences in universities, companies, and corporations have enriched my perspective and equipped me with a unique blend of technical know-how and human-centric skills. <br /> <br />
+        Please feel free to explore my portfolio to learn more about my projects and accomplishments, or contact me directly to discuss how my unique blend of technical and interpersonal expertise can contribute to your organization.
+        </p>
+        <p className={styles.sideNote}>(P.S I wasn&apos;t able to name all the university organizations because their names are too long and too many! But you can personally ask me about it :P)</p>
+      </div>
+      <div className={styles.portfolio}>
+        <Link to="/portfolio">See my Portfolio!</Link>
+      </div>
+      </section>
     </div>
-
-    <div className={styles.portfolio}>
-      <Link to="/portfolio">See my Portfolio!</Link>
-    </div>
-    <MorphingSVG />
-    </section>
   )
 }
 
