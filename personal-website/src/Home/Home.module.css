@@ -72,12 +72,13 @@
 .secondSection {
     position: relative;
     background: var(--dark);
-    padding-left: 25em;
-    padding-right: 25em;
+    padding-left: 16vw;
+    padding-right: 16vw;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 60vh;
+    gap: 50px;
 }
 
 
@@ -85,8 +86,8 @@
     height: 50vh;
     color: white;
     display: flex;
-    padding-left: 14em;
-    padding-right: 14em;
+    padding-left: 14vw;
+    padding-right: 14vw;
     padding-top: 50px;
     gap: 5em;
 }
@@ -101,8 +102,9 @@
 }
 
 .personalSkillDescription {
-    padding: 0 10em 4em;
-    width: 60%;
+    width: clamp(200px, 40vw, 40vw);
+    padding-left: 14vw;
+    padding-bottom:100px;
 }
 
 .personalSkillCarousel {
@@ -145,7 +147,7 @@
 
 .fourthSection {
     height: 50vh;
-    padding: 0 10em 0 10em;
+    padding: 0 10vw 0 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,7 +155,8 @@
 }
 
 .computerSkillDescription {
-    padding-left: 4em;
+    padding-left: 4vw;
+    padding-bottom: 50px;
     color: white;
     align-self: flex-start;
 }
@@ -215,7 +218,7 @@
 }
 
 .professionalExperienceDescription{
-    padding-left: 10em;
+    padding-left: 10vw;
 }
 
 .strongHighlight{
@@ -266,7 +269,7 @@
     height: 50px;
     background-size: cover;
     position: absolute;
-    left: -29%;
+    left: -200px;
     top: 27%;
 }
 
@@ -278,15 +281,19 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
-    padding-right: 14em;
+    padding-right: 14vw;
     font-family: var(--description-font);
 }
 
 .professionalEngagementDescription,
 .educationEngagementDescription {
     padding-top: 2em;
-    padding-left: 1em;
     font-size: 1.5em;
+}
+
+.educationalEngagementWrapper,
+.professionalEngagementWrapper {
+    width: 50%;
 }
 
 .educationalEngagementWrapper {
@@ -301,9 +308,9 @@
     color: white;
     height: 50vh;
     box-sizing: border-box;
-    padding-left: 14em;
-    padding-right: 14em;
     font-family: var(--description-font);
+    display: flex;
+    flex-direction: column;
 }
 
 .academicExperiences{
@@ -312,6 +319,13 @@
     gap: 50px;
     padding-top: 75px;
     font-size: 1.25em;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.academicExperienceDescription {
+    padding-left: 14vw;
+    padding-right: 14vw;
 }
 
 .eightSection{
