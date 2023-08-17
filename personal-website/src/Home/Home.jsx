@@ -44,7 +44,7 @@ function EigthSection () {
 
 function SeventhSection () {
   return (
-    <section className={styles.seventhSection + " hidden"}>
+    <section className={styles.seventhSection  + " hidden" + " fromRight"}>
     <h1 className={styles.academicExperienceDescription}>...but also in Univerisity & Academic Leadership positions!</h1>
      <ul className={styles.academicExperiences}>
       <li><strong className={styles.strongHighlight}>Assistant Vice President for Memberships:</strong> <br /><br />Guided membership strategies and fostered community within the organization.</li>
@@ -149,7 +149,7 @@ function ThirdSection () {
   ];
 
   return (
-    <section className={styles.thirdSection + " hidden"}>
+    <section className={styles.thirdSection  + " hidden" + " fromRight"}>
       <div className={styles.personalSkillWrapper}>
         <h1 className={styles.personalSkillDescription}>
           Because of my education and background in Psychology and Computer Science, I developed refined personal skills...
@@ -171,7 +171,7 @@ function ThirdSection () {
 
 function SecondSection () {
     return (
-      <section className={styles.secondSection + " hidden"}>
+      <section className={styles.secondSection  + " hidden" + " fromRight"}>
 
             <div className={styles.secondSectionWrapper}>
               <h1 className={styles.secondTitle}>Passionate about Technology and Human Connection</h1>
@@ -217,8 +217,14 @@ export default function Home () {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('in-viewport');
+          if (entry.target.classList.contains('fromRight')) {
+            entry.target.style.transform = 'translateX(0)';
+          }
         } else {
           entry.target.classList.remove('in-viewport');
+          if (entry.target.classList.contains('fromRight')) {
+            entry.target.style.transform = 'translateX(200px)';
+          }
         }
       });
     };
@@ -258,10 +264,10 @@ export default function Home () {
         <div className={styles.flexWrapper}>
           <SecondSection />
           <SixthSection />
-          <ThirdSection />
+          <ThirdSection/>
           <FourthSection />
           <FifthSection />
-          <SeventhSection />
+          <SeventhSection/>
           <EigthSection />
         </div>
         </>

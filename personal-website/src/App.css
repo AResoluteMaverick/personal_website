@@ -56,3 +56,7 @@ p {
     filter: blur(0);
     transform: translateX(0);
 }
+
+.fromRight {
+    transform: translateX(200px);
+}
