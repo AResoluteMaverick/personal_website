@@ -305,7 +305,7 @@
 }
 
 .seventhSection {
-    margin-top: 250px;
+    margin-top: 10vh;
     color: white;
     height: 50vh;
     box-sizing: border-box;
@@ -343,7 +343,7 @@
 
 .eightWrapper {
     position: relative;
-    height: 80vh;
+    height: 70vh;
 }
 
 .diversityTitle {
