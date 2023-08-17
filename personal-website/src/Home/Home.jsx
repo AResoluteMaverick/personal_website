@@ -20,6 +20,9 @@ import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
 import reactIcon from '../assets/icons/react_icon.png';
 import springIcon from '../assets/icons/spring_icon.svg';
+import acgImage from '../assets/images/acg.png';
+import fastImage from '../assets/images/fast2019.png';
+import smsImage from '../assets/images/sms.png';
 import MorphingSVG from '../assets/morphing/MorphingSVG';
 
 function EigthSection () {
@@ -47,11 +50,11 @@ function SeventhSection () {
     <section className={styles.seventhSection  + " hidden" + " fromRight"}>
     <h1 className={styles.academicExperienceDescription}>...but also in Univerisity & Academic Leadership positions!</h1>
      <ul className={styles.academicExperiences}>
-      <li><strong className={styles.strongHighlight}>Assistant Vice President for Memberships:</strong> <br /><br />Guided membership strategies and fostered community within the organization.</li>
-      <li><strong className={styles.strongHighlight}>Assistant Vice President for Human Resources:</strong> <br /><br />Oversaw recruitment, development, and engagement of organizational members.</li>
-      <li><strong className={styles.strongHighlight}>Junior Officer for Sponsorships:</strong> <br /><br />Managed relationships with sponsors and coordinated support for events and programs.</li>
-      <li><strong className={styles.strongHighlight}>Junior Officer for External Affairs:</strong> <br /><br />Led initiatives to foster collaboration and partnership with external entities.</li>
-      <li><strong className={styles.strongHighlight}>Junior Officer for Internal Affairs:</strong> <br /><br />Ensured smooth internal communication and coordinated organization-wide activities.</li>
+      <li className={styles.academicItem}><div className={styles.academicImageWrapper}><img src={smsImage} alt="sms" className={styles.academicImage} /></div><br /><strong className={styles.strongHighlight}>Assistant Vice President for Memberships:</strong> <br /><br />Guided membership strategies and fostered community within the organization.</li>
+      <li className={styles.academicItem}><div className={styles.academicImageWrapper}><img src={fastImage} alt="sms" className={styles.academicImage} /></div><br /><strong className={styles.strongHighlight}>Assistant Vice President for Human Resources:</strong> <br /><br />Oversaw recruitment, development, and engagement of organizational members.</li>
+      <li className={styles.academicItem}><div className={styles.academicImageWrapper}><img src={smsImage} alt="sms" className={styles.academicImage} /></div><br /><strong className={styles.strongHighlight}>Junior Officer for Sponsorships:</strong> <br /><br />Managed relationships with sponsors and coordinated support for events and programs.</li>
+      <li className={styles.academicItem}><div className={styles.academicImageWrapper}><img src={acgImage} alt="sms" className={styles.academicImage} /></div><br /><strong className={styles.strongHighlight}>Junior Officer for External Affairs:</strong> <br /><br />Led initiatives to foster collaboration and partnership with external entities.</li>
+      <li className={styles.academicItem}><div className={styles.academicImageWrapper}><img src={acgImage} alt="sms" className={styles.academicImage} /></div><br /><strong className={styles.strongHighlight}>Junior Officer for Internal Affairs:</strong> <br /><br />Ensured smooth internal communication and coordinated organization-wide activities.</li>
      </ul>
     </section>
   )
