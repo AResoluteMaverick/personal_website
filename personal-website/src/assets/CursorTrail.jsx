@@ -30,13 +30,14 @@ export default function CursorTrail () {
     <animated.div
       style={{
         position: 'fixed',
-        width: '20px',
-        height: '20px',
-        background: 'red',
+        width: '30px',
+        height: '30px',
+        background: '#fccb6f',
         borderRadius: '50%',
         pointerEvents: 'none',
         transform: 'translate(-50%, -50%)',
         zIndex: 9999,
+        boxShadow: '0 0 5px #fccb6f, 0 0 10px #fccb6f, 0 0 15px #db545c, 0 0 20px #db545c',
         ...springProps
       }}
     ></animated.div>
