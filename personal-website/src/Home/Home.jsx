@@ -19,7 +19,8 @@ import vsIcon from '../assets/icons/vscode_icon.png';
 import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
 import reactIcon from '../assets/icons/react_icon.png';
-import springIcon from '../assets/icons/spring_icon.svg'
+import springIcon from '../assets/icons/spring_icon.svg';
+import keepersIcon from '../assets/icons/keepers_icon.png';
 import MorphingSVG from '../assets/morphing/MorphingSVG';
 
 function EigthSection () {
@@ -84,8 +85,8 @@ function FifthSection () {
     <section className={styles.fifthSection + " hidden"}>
      <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings...</h1>
      <ul className={styles.professionalExperiences}>
-      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Intern at Kaya.ph -</strong> Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
-      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Recruiter Intern at NarraSoft -</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
+      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Intern at Keepers/KayaFounders -</strong> Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
+      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Recruiter Intern at NarraSoft Philippines -</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
       <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Accounts Management Intern at Kahon.ph - </strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
      </ul>
     </section>
