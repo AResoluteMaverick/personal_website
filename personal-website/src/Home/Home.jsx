@@ -20,7 +20,6 @@ import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
 import reactIcon from '../assets/icons/react_icon.png';
 import springIcon from '../assets/icons/spring_icon.svg';
-import keepersIcon from '../assets/icons/keepers_icon.png';
 import MorphingSVG from '../assets/morphing/MorphingSVG';
 
 function EigthSection () {

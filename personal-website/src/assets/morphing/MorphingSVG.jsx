@@ -32,7 +32,7 @@ export default function MorphingSVG() {
       preserveAspectRatio="none"
       className={styles.svgMorphFirst}
     >
-      <animated.path
+      <animated.path className={styles.blobGlow}
         d={x.to({
           range: [0, 1],
           output: [paths[pathIndex], paths[(pathIndex + 1) % paths.length]]
