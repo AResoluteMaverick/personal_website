@@ -19,6 +19,7 @@ import vsIcon from '../assets/icons/vscode_icon.png';
 import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
 import reactIcon from '../assets/icons/react_icon.png';
+import springIcon from '../assets/icons/spring_icon.svg'
 import MorphingSVG from '../assets/morphing/MorphingSVG';
 
 function EigthSection () {
@@ -58,16 +59,16 @@ function SeventhSection () {
 
 function SixthSection () {
   return (
-    <section className={styles.sixthSection + " hidden"}>
+    <section className={styles.sixthSection}>
 
-     <div className={styles.educationalEngagementWrapper}>
+     <div className={styles.educationalEngagementWrapper + " hidden"}>
        <h1 className={styles.educationalEngagement}>Educational Engagement:</h1>
        <p className={styles.educationEngagementDescription}>
         During my university years, I took an active role in projects, university-wide programs, and both internal and external organizational affairs. These experiences allowed me to hone my leadership, teamwork, and problem-solving abilities.
        </p>
      </div>
 
-     <div className={styles.professionalEngagementWrapper}>
+     <div className={styles.professionalEngagementWrapper + " hidden"}>
        <h1 className={styles.professionalEngagement}>Professional Engagement:</h1>
        <p className={styles.professionalEngagementDescription}>
        In the corporate realm, I&apos;ve strategically positioned myself at the nexus of technology, recruitment, and operations. These diverse roles have not only honed my adaptability but also enabled me to appreciate the multifaceted dimensions of the business world!
@@ -83,9 +84,9 @@ function FifthSection () {
     <section className={styles.fifthSection + " hidden"}>
      <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings...</h1>
      <ul className={styles.professionalExperiences}>
-      <li><strong className={styles.strongHighlight}>Intern at Kaya.ph -</strong> Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
-      <li><strong className={styles.strongHighlight}>Recruiter Intern at NarraSoft -</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
-      <li><strong className={styles.strongHighlight}>Accounts Management Intern at Kahon.ph - </strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
+      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Intern at Kaya.ph -</strong> Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Kaya.ph&apos;s online presence and community growth strategies.</li>
+      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Recruiter Intern at NarraSoft -</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
+      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Accounts Management Intern at Kahon.ph - </strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
      </ul>
     </section>
   )
@@ -103,6 +104,7 @@ function FourthSection () {
     { src: viteIcon, alt: 'Vite' },
     { src: webpackIcon, alt: 'Webpack' },
     { src: reactIcon, alt: 'React' },
+    { src: springIcon, alt: 'ReactSpring' },
   ];
 
 
@@ -229,18 +231,18 @@ export default function Home () {
 
     const observer = new IntersectionObserver(handleIntersection, options);
 
-    const sections = document.querySelectorAll('.hidden');
+    const hidden = document.querySelectorAll('.hidden');
 
-    sections.forEach((section, index) => {
+    hidden.forEach((hidden, index) => {
       if (index >= 0) {
-        observer.observe(section);
+        observer.observe(hidden);
       }
     });
 
     return () => {
-      sections.forEach((section, index) => {
+      hidden.forEach((hidden, index) => {
         if (index >= 0) {
-          observer.unobserve(section);
+          observer.unobserve(hidden);
         }
       });
       observer.disconnect();

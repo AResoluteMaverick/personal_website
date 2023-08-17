@@ -56,11 +56,3 @@ p {
     filter: blur(0);
     transform: translateX(0);
 }
-
-.icon:nth-child(odd){
-    transition-delay: 500ms;
-}
-
-.icon:nth-child(even){
-    transition-delay: 1000ms;
-}
