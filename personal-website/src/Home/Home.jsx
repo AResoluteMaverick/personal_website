@@ -19,6 +19,7 @@ import vsIcon from '../assets/icons/vscode_icon.png';
 import viteIcon from '../assets/icons/vite_icon.svg';
 import webpackIcon from '../assets/icons/webpack_icon.svg';
 import reactIcon from '../assets/icons/react_icon.png';
+import MorphingSVG from '../assets/morphing/MorphingSVG';
 
 function EigthSection () {
   return (
@@ -35,7 +36,7 @@ function EigthSection () {
     <div className={styles.portfolio}>
       <Link to="/portfolio">See my Portfolio!</Link>
     </div>
-
+    <MorphingSVG />
     </section>
   )
 }
