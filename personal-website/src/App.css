@@ -43,6 +43,7 @@ p {
 
 /*Intersection Observer styling section*/
 
+
 .hidden {
     opacity: 0;
     filter: blur(5px);
@@ -54,4 +55,12 @@ p {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.icon:nth-child(odd){
+    transition-delay: 500ms;
+}
+
+.icon:nth-child(even){
+    transition-delay: 1000ms;
 }

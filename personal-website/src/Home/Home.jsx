@@ -114,7 +114,7 @@ function FourthSection () {
 
     <div className={styles.computerSkills}>
       {icons.map((icon, index) => (
-            <img key={index} src={icon.src} alt={icon.alt} className={styles.icon} />
+            <img key={index} src={icon.src} alt={icon.alt} className={styles.icon + " hidden"} />
           ))}
     </div>
     
@@ -229,17 +229,17 @@ export default function Home () {
 
     const observer = new IntersectionObserver(handleIntersection, options);
 
-    const sections = document.querySelectorAll('section');
+    const sections = document.querySelectorAll('.hidden');
 
     sections.forEach((section, index) => {
-      if (index >= 2) {
+      if (index >= 0) {
         observer.observe(section);
       }
     });
 
     return () => {
       sections.forEach((section, index) => {
-        if (index >= 2) {
+        if (index >= 0) {
           observer.unobserve(section);
         }
       });
