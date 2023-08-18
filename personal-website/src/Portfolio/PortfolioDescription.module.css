@@ -1,3 +1,76 @@
+@import '../assets/theme.css';
+
 .portfolioDescriptionComponent {
     color : white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow-y:auto;
+    padding:  4vw;
+    font-size: 1em;
+}
+
+.imageWrapper {
+    min-height: 40%;
+    max-height: 40%;
+}
+
+.contentWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContentWrapper {
+    grid-column: 1 / 2 ;
+    grid-row: 1 / 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+    grid-auto-flow: column;
+}
+
+.projectTitle {
+    font-family: var(--heading-font);
+}
+
+.footerWrapper {
+    margin-top: 25px;
+}
+
+.toolWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.toolItem {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--heading-font);
+    border: 2px solid var(--light);
+    border-radius: 25px;
+    padding: 10px;
+    line-height: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: all 0.25s ease-in;
+    height: 45px;
+}
+
+.toolItem:hover {
+    border: 2px solid var(--dark-purple);
+    background-color: var(--light);
+    color: var(--red-hue);
+}
+
+.strongTitle {
+    font-size: 1.2em;
+    font-family: var(--heading-font);
 }

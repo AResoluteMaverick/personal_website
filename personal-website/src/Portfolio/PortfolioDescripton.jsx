@@ -18,20 +18,22 @@ export default function PortfolioDescription () {
 
             <div className={styles.contentWrapper}>
                 <div className={styles.mainContentWrapper}>
-                    <div>{itemData.title}</div>
-                    <div>{itemData.objective}</div>
-                    <div>{itemData.statement}</div>
-                </div>
-
-                <div className={styles.sideContentWrapper}>
-                    <div>{itemData.tools}</div>
-                    <div>{itemData.userinterface}</div>
-                    <div>{itemData.features}</div>
+                    <div><strong className={styles.strongTitle}>Project Title</strong> <br /> <br /> <h2 className={styles.projectTitle}>{itemData.title}</h2></div>
+                    <p><strong className={styles.strongTitle}>Objective</strong>  <br /> <br /> {itemData.objective}</p>
+                    <p><strong className={styles.strongTitle}>Statement</strong>   <br /> <br /> {itemData.statement}</p>
+                    <div className={styles.toolWrapper}>
+                    {
+                    itemData.tools.map((item,index) =>(
+                        <div key={index} className={styles.toolItem}>{item}</div>
+                    ))}
+                    </div>
+                    <p><strong  className={styles.strongTitle}>User Interface</strong>  <br /> <br /> {itemData.userinterface}</p>
+                    <p><strong  className={styles.strongTitle}>Features </strong>  <br /> <br /> {itemData.features}</p>
                 </div>
 
                 <div className={styles.footerWrapper}>
-                    <div>{itemData.challenges}</div>
-                    <div>{itemData.websiteLink}</div>
+                    <p> <strong className={styles.strongTitle}>Challenges faced</strong> <br /> <br /> {itemData.challenges}</p>
+                    <p>{itemData.websiteLink}</p>
                 </div>
                 
             </div>

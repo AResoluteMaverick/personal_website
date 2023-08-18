@@ -39,6 +39,7 @@ h1 {
 
 p {
     font-family: var(--description-font);
+    line-height: 1.5;
 }
 
 /*Intersection Observer styling section*/

@@ -17,7 +17,7 @@
         "performance": "Performance adjustments were not necessary, given the efficient nature of the technologies employed.",
         "challenges": "The primary challenges encountered related to understanding the Google Maps documentation, especially due to differences between the paid and free subscriptions. Additionally, throughout the project's development, discrepancies arose from existing third-party documentation and examples because of varying API versions.",
         "features": "The website's primary feature allows users to input a city name. Based on this input, the site displays both the city's current weather and its geographical location on a map.",
-        "websitelink":"https://google-map-weather-api.vercel.app/"
+        "websiteLink":"https://google-map-weather-api.vercel.app/"
     },
     {
         "id": "2",
@@ -53,7 +53,7 @@
             "React Redux",
             "React Router",
             "React Spring",
-            "Intersection Observer API",
+            "Observer API",
             "ESLint",
             "Git"
         ],
