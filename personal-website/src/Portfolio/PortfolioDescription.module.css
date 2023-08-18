@@ -4,6 +4,19 @@ p {
     font-size: 1.2em;
 }
 
+.imageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.portfolioImage {
+    height: 100%;
+    width: auto;
+    position: absolute;
+}
+
 .portfolioDescriptionComponent {
     color : white;
     height: 100%;

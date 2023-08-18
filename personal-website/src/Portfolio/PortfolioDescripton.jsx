@@ -13,7 +13,11 @@ export default function PortfolioDescription () {
         <>
         <div className={styles.portfolioDescriptionComponent}>
             <div className={styles.imageWrapper}> 
-
+            <img 
+                src={itemData.imagepath} 
+                alt={itemData.title}
+                className={styles.portfolioImage}
+            />
             </div>
 
             <div className={styles.contentWrapper}>

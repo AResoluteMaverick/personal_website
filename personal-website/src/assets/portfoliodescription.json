@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "imagepath": "https://res.cloudinary.com/dyezha1yl/image/upload/v1692369487/googleweather_jdphmj.png",
         "path": "googleweatherAPI",
         "title": "Google Maps and Weather API",
         "objective": "The website aims to accurately display both the weather and the geographical location of a specified city, leveraging two distinct APIs: one for weather information and the other for mapping the city's location.",
@@ -21,6 +22,7 @@
     },
     {
         "id": "2",
+        "imagepath": "https://res.cloudinary.com/dyezha1yl/image/upload/v1692369492/Lux_rrwplr.png",
         "path": "lux",
         "title": "Mini-Ecommerce: Lux",
         "objective": "Lux is a conceptual representation of a boutique luxury e-commerce platform, designed to epitomize elegance while maintaining its theme of exclusivity.",
@@ -43,6 +45,7 @@
     },
     {
         "id": "3",
+        "imagepath": "https://res.cloudinary.com/dyezha1yl/image/upload/v1692369487/tapivenus_rvois7.png",
         "path": "tapivenus",
         "title": "Personal Portfolio / Website",
         "objective": "tapivenus serves as a digital showcase of my journey in full-stack development, highlighting my professional experiences and leadership roles acquired during university.",
@@ -55,7 +58,8 @@
             "React Spring",
             "Observer API",
             "ESLint",
-            "Git"
+            "Git",
+            "Cloudinary"
         ],
         "statement": "The website presents a melding of my professional journey, reflecting both the chronological and psychological evolution of my skills. It underscores my adaptability with technology, proficiency in leveraging diverse libraries, academic and professional milestones, educational background, and above all, my knack for narrative-driven communication and interpersonal skills.",
         "userinterface": "Visitors are welcomed by a captivating parallax backdrop on the homepage. As one scrolls, content unfurls with dynamic animations, ensuring an engaging yet straightforward narrative experience.",
@@ -66,6 +70,7 @@
     },
     {
         "id": "4",
+        "imagepath": "https://res.cloudinary.com/dyezha1yl/image/upload/v1692369486/sort_nutlsh.png",
         "path": "recursion",
         "title": "Honorable Mentions: Recursive Fibo and Merge Sort Algorithm",
         "objective": "It aims to demonstrate how I can write computer science based code such as recursion",
