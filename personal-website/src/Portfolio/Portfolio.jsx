@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import Header from "../Header/Header";
 import CursorTrail from "../assets/CursorTrail";
 import styles from './Portfolio.module.css';
@@ -13,13 +14,13 @@ export default function Portfolio () {
             <div className={styles.portfolioNav}>
                 {
                     portfolioData.map(item => (
-                        <h3 key={item.id}>{item.title}</h3>
+                        <h3 key={item.id} className={styles.portfolioItemTitle}>{item.title}</h3>
                     ))
                 }
             </div>
 
             <div className={styles.portfolioDisplay}>
-
+                <Outlet />
             </div>
         </div>
         </>
