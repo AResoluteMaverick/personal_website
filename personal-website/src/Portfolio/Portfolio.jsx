@@ -1,4 +1,5 @@
 import { Outlet, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 import Header from "../Header/Header";
 import CursorTrail from "../assets/CursorTrail";
 import styles from './Portfolio.module.css';
@@ -6,7 +7,8 @@ import portfolioData from '../assets/portfoliodescription.json';
 
 export default function Portfolio () {
     const navigate = useNavigate();
-    
+    const [selectedItemId, setSelectedItemId] = useState(null);
+
     return (
         <>
         <CursorTrail />
@@ -16,9 +18,10 @@ export default function Portfolio () {
                 {portfolioData.map(item => (
                     <div 
                         key={item.id} 
-                        className={styles.portfolioItemTitle}
+                        className={`${styles.portfolioItemTitle} ${item.id === selectedItemId ? styles.selected : ''}`}
                         onClick={() => {
                             navigate(`project/${item.path}`, { state: { itemData: item } });
+                            setSelectedItemId(item.id);
                         }}
                     >
                         {item.title}
