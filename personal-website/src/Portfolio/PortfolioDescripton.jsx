@@ -33,7 +33,7 @@ export default function PortfolioDescription () {
 
                 <div className={styles.footerWrapper}>
                     <p> <strong className={styles.strongTitle}>Challenges faced</strong> <br /> <br /> {itemData.challenges}</p>
-                    <p>{itemData.websiteLink}</p>
+                    <div className={styles.websiteWrapper}><a href={itemData.websiteLink} target="_blank" rel="noopener noreferrer">{itemData.websiteLink}</a></div>
                 </div>
                 
             </div>

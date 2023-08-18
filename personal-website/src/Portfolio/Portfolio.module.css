@@ -5,6 +5,7 @@
     display: flex;
     padding-top: 125px;
     padding-bottom: 50px;
+    background: linear-gradient( #2d3649, black);
 }
 
 .portfolioNav {
@@ -13,14 +14,15 @@
     display: flex;
     flex-direction: column;
     padding: 25px;
-    border: 1px solid white;
+    border: 1px solid #2d3649;
     color: white;
+    gap: 10px;
 }
 
 .portfolioDisplay {
     height: 100%;
     width: 100%;
-    border: 1px solid white;
+    border: 1px solid #2d3649;
 }
 
 .portfolioItemTitle {

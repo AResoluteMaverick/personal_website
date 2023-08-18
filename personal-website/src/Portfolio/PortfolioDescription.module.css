@@ -1,5 +1,9 @@
 @import '../assets/theme.css';
 
+p {
+    font-size: 1.2em;
+}
+
 .portfolioDescriptionComponent {
     color : white;
     height: 100%;
@@ -40,6 +44,7 @@
 
 .footerWrapper {
     margin-top: 25px;
+    padding-bottom: 50px;
 }
 
 .toolWrapper {
@@ -73,4 +78,14 @@
 .strongTitle {
     font-size: 1.2em;
     font-family: var(--heading-font);
+}
+
+.websiteWrapper {
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 1.5em;
 }
