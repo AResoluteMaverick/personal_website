@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "title": "Google Maps and Weather API",
+        "objective": "The website aims to accurately display both the weather and the geographical location of a specified city, leveraging two distinct APIs: one for weather information and the other for mapping the city's location.",
+        "tools": [
+            "Vanilla JavaScript",
+            "GoogleMaps API",
+            "Vanilla CSS",
+            "WeatherAPI.com",
+            "Webpack",
+            "Git"
+        ],
+        "statement": "This website seamlessly integrates the prowess of Google Maps and a trusted weather API. It serves as a testament to how Vanilla JavaScript, paired with the right APIs, can deliver a powerful user experience.",
+        "UIUX": "The user interface is designed to be minimalist and intuitive. Upon landing, users are prompted to enter a city of their choice. Once submitted, the site transitions smoothly to display a detailed map of the city, alongside the current weather conditions. The visual elements are harmoniously balanced, ensuring that users can quickly grasp the information they seek without any distractions.",
+        "performance": "Performance adjustments were not necessary, given the efficient nature of the technologies employed.",
+        "challenges": "The primary challenges encountered related to understanding the Google Maps documentation, especially due to differences between the paid and free subscriptions. Additionally, throughout the project's development, discrepancies arose from existing third-party documentation and examples because of varying API versions.",
+        "features": "The website's primary feature allows users to input a city name. Based on this input, the site displays both the city's current weather and its geographical location on a map.",
+        "websitelink":"https://google-map-weather-api.vercel.app/"
+    },
+    {
+        "id": "2",
+        "title": "Mini-Ecommerce: Lux",
+        "objective": "Lux is a conceptual representation of a boutique luxury e-commerce platform, designed to epitomize elegance while maintaining its theme of exclusivity.",
+        "tools": [
+            "Vanilla JavaScript",
+            "Vanilla CSS",
+            "React",
+            "React Redux",
+            "React Router",
+            "ESLint",
+            "FakeStore API",
+            "Git"
+        ],
+        "statement": "The platform seamlessly integrates the FakeStore API to source product listings and descriptions. Employing React Router ensures fluid navigation between pages, while Redux orchestrates the intricate logic of the shopping cart.",
+        "UIUX": "Visitors are immediately immersed in a refined summer luxury aesthetic. Designed to be both minimalistic and inviting, the site guides users to a collections page, where they can select categories tailored to their preferences.",
+        "performance": "Optimized for a responsive experience, Lux is compatible across desktop, tablet, and mobile devices.",
+        "challenges": "A significant challenge faced during development was establishing a definitive creative direction. The site needed to demonstrate my technical capabilities in creating a fully functional e-commerce platform, yet also required a meticulous design focus. Recognizing the importance of both, I allowed myself to progress gradually, acknowledging that while I might refine the design later with more artistic experience, technical integrity was the priority.",
+        "features": "Lux boasts three primary pages: home, collections, and about us. The synergy of Redux and Router ensures efficient execution of its essential functions.",
+        "websiteLink": "https://lux-by-tapi.vercel.app/"
+    },
+    {
+        "id": "3",
+        "title": "Personal Portfolio / Website",
+        "objective": "tapivenus serves as a digital showcase of my journey in full-stack development, highlighting my professional experiences and leadership roles acquired during university.",
+        "tools": [
+            "Vanilla CSS",
+            "JavaScript",
+            "React",
+            "React Redux",
+            "React Router",
+            "React Spring",
+            "Intersection Observer API",
+            "ESLint",
+            "Git"
+        ],
+        "statement": "The website presents a melding of my professional journey, reflecting both the chronological and psychological evolution of my skills. It underscores my adaptability with technology, proficiency in leveraging diverse libraries, academic and professional milestones, educational background, and above all, my knack for narrative-driven communication and interpersonal skills.",
+        "UIUX": "Visitors are welcomed by a captivating parallax backdrop on the homepage. As one scrolls, content unfurls with dynamic animations, ensuring an engaging yet straightforward narrative experience.",
+        "performance": "Despite the rich animations and parallax effects, the site retains top-tier performance, thanks to the use of React Spring—anchored in real-world physics mathematics, and the simple use of the Intersction Observer API.",
+        "challenges": "A primary challenge was balancing an abundance of content with intricate animations. Ultimately, I opted for a narrative-driven approach, prioritizing my story over potentially distracting elements.",
+        "features": "The site's dynamic features harness a range of technologies. The Intersection Observer API tracks viewport activity, animating content via CSS. React Spring powers unique elements, such as a luminescent cursor and a morphing SVG at the page's conclusion.",
+        "websiteLink": "https://tapivenus.vercel.app/"
+    },
+    {
+        "id": "4",
+        "title": "Honorable Mentions: Recursive Fibo and Merge Sort Algorithm",
+        "objective": "It aims to demonstrate how I can write computer science based code such as recursion",
+        "tools": [
+            "Vanilla JavaScript"
+        ],
+        "statement": "Although this is simply a script, it is made to just simply demonstrate that despite my background in Psychology, I can still delve into computer science and the mathematical prowess required to do so",
+        "UIUX": "None",
+        "performance": "Cutting-edge performance",
+        "challenges": "Like with all people who has dealt with math, I faced frustration and stress",
+        "features": "None",
+        "websiteLink": "https://codepen.io/AResoluteMaverick/details/gOQvwzJ and https://codepen.io/AResoluteMaverick/pen/MWzrGLE"
+    }
+]
