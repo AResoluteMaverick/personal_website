@@ -1,0 +1,21 @@
+.portfolioComponent {
+    height: 100vh;
+    display: flex;
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+
+.portfolioNav {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    color: white;
+}
+
+.portfolioDisplay {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+}
