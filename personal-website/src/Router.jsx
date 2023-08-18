@@ -3,6 +3,7 @@ import App from "./App";
 import Portfolio from "./Portfolio/Portfolio";
 import Contact from "./Contact/Contact";
 import ErrorPage from "./ErrorPage";
+import PortfolioDescription from "./Portfolio/PortfolioDescripton";
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -14,7 +15,14 @@ const Router = () => {
     {
       path: "/portfolio",
       element: <Portfolio />,
-      errorElement: <ErrorPage />
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: "project/:title",
+          element: <PortfolioDescription />,
+          errorElement: <ErrorPage />,
+        },
+      ],
     },
     {
       path: "/contact",
