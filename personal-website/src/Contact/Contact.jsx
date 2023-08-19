@@ -10,7 +10,7 @@ export default function Contact () {
         <Header />
         <MorphingSVG />
         <div className={styles.contactComponent}>
-            <div className={styles.contactItem}>GitHub</div>
+            <div className={styles.contactItem}><a href="https://github.com/AResoluteMaverick" target="_blank" rel="noopener noreferrer">GitHub</a></div>
             <div className={styles.contactItem}>official.raph.tapi@gmail.com</div>
             <div className={styles.contactItem}>LinkedIn</div>
         </div>
