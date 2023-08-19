@@ -12,7 +12,7 @@ export default function Contact () {
         <div className={styles.contactComponent}>
             <div className={styles.contactItem}><a href="https://github.com/AResoluteMaverick" target="_blank" rel="noopener noreferrer">GitHub</a></div>
             <div className={styles.contactItem}>official.raph.tapi@gmail.com</div>
-            <div className={styles.contactItem}>LinkedIn</div>
+            <div className={styles.contactItem}><a href="https://www.linkedin.com/in/raphael-tapiador" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
         </div>
         </>
     )
