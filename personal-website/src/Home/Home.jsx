@@ -23,6 +23,7 @@ import springIcon from '../assets/icons/spring_icon.svg';
 import acgImage from '../assets/images/acg.png';
 import fastImage from '../assets/images/fast2019.png';
 import smsImage from '../assets/images/sms.png';
+import reduxIcon from '../assets/icons/reudx_icon.png';
 import MorphingSVG from '../assets/morphing/MorphingSVG';
 
 function EigthSection () {
@@ -108,6 +109,7 @@ function FourthSection () {
     { src: webpackIcon, alt: 'Webpack' },
     { src: reactIcon, alt: 'React' },
     { src: springIcon, alt: 'ReactSpring' },
+    { src: reduxIcon, alt: 'ReduxIcon'}
   ];
 
 
