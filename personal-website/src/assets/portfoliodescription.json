@@ -80,7 +80,7 @@
             "Vanilla CSS",
             "WebStorage API"
         ],
-        "statement": "User can easily manage their day-to-day tasks with this app. It also has a project functionality to place where specific tasks should go.",
+        "statement": "With WebStorage API(Disabled), user can easily manage their day-to-day tasks with this app. It also has a project functionality to place where specific tasks should go. Please note that it uses the local storage of your browser",
         "userinterface": "User is greeted with straight to the point minimalistic design.",
         "performance": "Performance does not lack due to it made with pure JS and CSS",
         "challenges": "A challenge faced is creating this from scratch, as it doesn't use any framework or libraries to build this. Improving creative code writing was the most difficult.",
