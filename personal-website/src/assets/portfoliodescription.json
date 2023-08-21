@@ -70,6 +70,25 @@
     },
     {
         "id": "4",
+        "imagepath": "https://res.cloudinary.com/dyezha1yl/image/upload/v1692600764/Todoimg_lfpbsd.png",
+        "path": "todo",
+        "title": "Pure JS Todo",
+        "objective": "A small application made for day to day tasks",
+        "tools": [
+            "Vanilla JavaScript",
+            "Webpack",
+            "Vanilla CSS",
+            "WebStorage API"
+        ],
+        "statement": "User can easily manage their day-to-day tasks with this app. It also has a project functionality to place where specific tasks should go.",
+        "userinterface": "User is greeted with straight to the point minimalistic design.",
+        "performance": "Performance does not lack due to it made with pure JS and CSS",
+        "challenges": "A challenge faced is creating this from scratch, as it doesn't use any framework or libraries to build this. Improving creative code writing was the most difficult.",
+        "features": "None",
+        "websiteLink": "https://todo-list-git-main-aresolutemaverick.vercel.app/"
+    },
+    {
+        "id": "5",
         "imagepath": "https://res.cloudinary.com/dyezha1yl/image/upload/v1692369486/sort_nutlsh.png",
         "path": "recursion",
         "title": "Honorable Mentions: Recursive Fibo and Merge Sort Algorithm",
