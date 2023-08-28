@@ -44,3 +44,29 @@
     background-color: var(--light);
     color: var(--red-hue);
 }
+
+@media (max-width: 500px) {
+    .headerComponent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10000;
+        background-color: rgb(123, 66, 92, 0.5);
+    }
+
+    .liLink{
+        list-style: none;
+        margin-left: 10px;
+        color: var(--light);
+        padding: 6px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-family: var(--description-font);
+        transition: all 0.25s ease-in;
+    }
+}

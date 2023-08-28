@@ -369,7 +369,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 1.5em;
-    height: 100%;
+    height: 110%;
     display: flex;
 
     flex-direction: column;
@@ -404,4 +404,151 @@
 .portfolio:hover {
     background-color: var(--light);
     color: var(--red-hue);
+}
+
+@media (max-width: 600px) {
+    .secondSection {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+
+    .profilePicture {
+        padding: 4em;
+    }
+
+    .sixthSection {
+        padding: 0;
+        height: 100%;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .professionalEngagementWrapper,
+    .educationalEngagementWrapper {
+        width: 100%;
+        font-size: 0.8em;
+        padding: 4em;
+    }
+
+    .thirdSection {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .personalSkillDescription {
+        width: 100%;
+        padding: 2em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .fourthSection {
+        height: 100%;
+        padding: 0;
+    }
+
+    .computerSkills {
+        margin: 0;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
+
+    .icon {
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+    }
+
+    .fifthSection {
+        height: 100%;
+    }
+
+    .professionalExperienceDescription {
+        padding: 1em;
+        text-align: center;
+    }
+
+    .professionalExperiences {
+        margin-left: 0;
+        padding-right: 0;
+        width: 100%;
+        padding: 1.4em;
+        gap:100px;
+    }
+
+    .professionalItem:nth-child(1)::before {
+        content: '';
+        display: inline-block;
+        background-image: url(../assets/icons/keepers.png);
+        width: 94px;
+        height: 40px;
+        background-size: cover;
+        position: absolute;
+        left: 100px;
+        top: -50%;
+    }
+
+    .professionalItem:nth-child(2)::before {
+        content: '';
+        display: inline-block;
+        background-image:  url(../assets/icons/narrasoft.png);
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        position: absolute;
+        left: 140px;
+        top: -34%;
+    }
+
+    .professionalItem:nth-child(3)::before {
+        content: '';
+        display: inline-block;
+        background-image: url(../assets/icons/Kahon.png);
+        width: 89px;
+        height: 50px;
+        background-size: cover;
+        position: absolute;
+        left: 120px;
+        top: -37%;
+    }
+
+    .seventhSection {
+        height: 90vh;
+    }
+
+    .academicExperiences {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .academicItem {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .eightSection {
+        height: 105vh;
+        width: 100%;
+        margin: 0;
+        padding: 2em;
+    }
+
+    .diversityDescription {
+        font-size: 0.8em;
+    }
+
+    .sideNote {
+        font-size: 0.5em;
+    }
+
+    .firstSection {
+        height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
 }

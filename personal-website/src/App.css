@@ -76,3 +76,12 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid rgb(123, 66, 92, 0.4); 
 
 }
+
+@media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+    .hidden{
+        transform: translateX(0px);
+    }
+}

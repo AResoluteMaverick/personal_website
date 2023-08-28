@@ -228,7 +228,7 @@ export default function Home () {
         } else {
           entry.target.classList.remove('in-viewport');
           if (entry.target.classList.contains('fromRight')) {
-            entry.target.style.transform = 'translateX(200px)';
+            entry.target.style.transform = 'translateX(150px)';
           }
         }
       });
