@@ -60,6 +60,8 @@
     height: 100vh;
     display: flex;
     background: linear-gradient(#72445c,#be4c62);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .flexWrapper{
@@ -191,13 +193,15 @@
 }
 
 .profilePicture {
-    max-height: 50vh;
+    height: 400px;
+    width: 400px;
     border-radius: 8%;
 }
 
 .profilePictureWrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .secondTitle {

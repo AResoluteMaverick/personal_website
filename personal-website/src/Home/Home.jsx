@@ -86,10 +86,10 @@ function SixthSection () {
 function FifthSection () {
   return (
     <section className={styles.fifthSection + " hidden"}>
-     <h1 className={styles.professionalExperienceDescription}>Skills (Well, majorly personal skills) of which I&apos;ve been able to apply in actual professional settings...</h1>
+     <h1 className={styles.professionalExperienceDescription}>Skills of which I&apos;ve been able to apply in actual professional settings...</h1>
      <ul className={styles.professionalExperiences}>
-      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Intern at Keepers/KayaFounders -</strong> Chosen to assist with website design and community planning, I collaborated with a dynamic team to shape Keeper&apos;s online presence and community growth strategies.</li>
-      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Recruiter Intern at NarraSoft Philippines -</strong> Immersed in a tech-driven environment, I connected with professionals spanning from full-stack developers to UI/UX designers. Beyond recruitment, I played a pivotal role in rejuvenating the website&apos;s design, ensuring its relevance in the tech space.</li>
+      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Intern at Keepers/KayaFounders -</strong> Assisted in the design of "Keepers Bar" website for brand alignment, hand-picked for future community events, and produced UX research with 5+ design pegs.</li>
+      <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Recruiter Intern at NarraSoft Philippines -</strong> Consolidated leads for 10+ tech categories, screened 10 candidates daily with 3-5 monthly hires, and aided in the company's website redesign for enhanced user engagement.</li>
       <li className={styles.professionalItem + " hidden"}><strong className={styles.strongHighlight}>Accounts Management Intern at Kahon.ph - </strong> Diving deep into operations, I was entrusted with accounts management and pivotal operational tasks. Whether it was client inquiries, calls, or innovating new programs, I ensured a seamless and effective operational flow.</li>
      </ul>
     </section>
@@ -116,7 +116,7 @@ function FourthSection () {
   return (
   <section className={styles.fourthSection + " hidden"}>
     <h1 className={styles.computerSkillDescription}>
-      ...and Tech skills!
+      ...and acquired Tech Stacks.
     </h1>
 
     <div className={styles.computerSkills}>
@@ -179,8 +179,8 @@ function SecondSection () {
       <section className={styles.secondSection  + " hidden" + " fromRight"}>
 
             <div className={styles.secondSectionWrapper}>
-              <h1 className={styles.secondTitle}>Passionate about Technology and Human Connection</h1>
-              <p className={styles.secondParagraph}> Hi, I&apos;m Raphael Tapiador, a person with background in Computer Science and Psychology from De La Salle University in the Philippines. My fascination with the intersection of technology and human behavior has led me through a diverse journey, bridging the gap between coding and communication in various environments. </p>
+              <h1 className={styles.secondTitle}>A hustler of Jr. Web Developer</h1>
+              <p className={styles.secondParagraph}> Hello! I'm Raphael Tapiador, a Computer Science and Psychology graduate from De La Salle University, Philippines. Throughout my full-stack development journey, I've successfully built, integrated, and deployed intricate APIs—including those from Google—and crafted numerous websites with responsive and animated designs. My dual background equips me with a unique blend of technical expertise and a deep understanding of user behavior. </p>
             </div>
             <div className={styles.profilePictureWrapper}>
               <img src={profileImage} alt="raphael_tapiador_picture" className={styles.profilePicture} />
